@@ -1,15 +1,14 @@
 .button {
-    display: flex;
     width: 155px;
     height: 30px;
     padding: 20px 50px;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px;
     border: 1px solid #7875FE;
-}
 
-.button p {
+    text-decoration: none;
     color: #7875FE;
     font-family: Roboto;
     font-size: 20px;
@@ -17,6 +16,22 @@
     font-weight: 400;
     line-height: normal;
 }
+
+.button:hover {
+    color: #FFF;
+    background: #7875FE;
+}
+
+.button:focus {
+    border: 1px solid #7875FE;
+    background: #DAD9FB;
+    color: #7875FE;
+}
+
+.button:active {
+    background: #4946B4;
+}
+
 
 .detail {
     text-decoration: none;
@@ -33,4 +48,21 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media screen and (max-width:1150px) {}
+
+@media screen and (max-width:700px) {
+    .button {
+        width: 96px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .button {
+        width: 44px;
+        height: 10px;
+        font-size: 18px;
+    }
 }
