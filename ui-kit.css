@@ -1,0 +1,36 @@
+.button {
+    display: flex;
+    width: 155px;
+    height: 30px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border: 1px solid #7875FE;
+}
+
+.button p {
+    color: #7875FE;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.detail {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.detail p {
+    color: #7875FE;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

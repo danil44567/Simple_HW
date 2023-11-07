@@ -1,0 +1,384 @@
+@media screen and (max-width:1150px) {
+    .header {
+
+        padding-top: 10px;
+    }
+
+    .header__row {
+        padding-left: 39px;
+        padding-right: 35px;
+    }
+
+    .header__nav {
+        gap: 0px;
+        justify-content: space-between;
+    }
+
+    .nav-in-content {
+        display: none;
+    }
+
+    .nav-in-header {
+        display: flex;
+    }
+
+    .header__line {
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+
+    .header__line2 {
+        display: block;
+        margin-top: 19px;
+    }
+
+    .hero {
+        height: 470px;
+        padding: 0 39px;
+    }
+
+    .hero img {
+        height: 668px;
+    }
+
+    .hero__content-block {
+        width: 390px;
+    }
+
+    .hero__content-block h1 {
+        font-size: 50px;
+    }
+
+    .results {
+        padding: 60px 39px;
+        gap: 40px;
+    }
+
+    .results__variant {
+        width: 210px;
+    }
+
+    .results__variant-content {
+        flex-direction: column;
+    }
+
+    .results__info {
+        align-items: flex-start;
+    }
+
+    .results__info-text h2 {
+        font-size: 30px;
+    }
+
+    .results__info img {
+        max-width: 330px;
+    }
+
+    .products {
+        padding: 60px 39px;
+    }
+
+    .products__product {
+        width: 330px;
+        height: 434px;
+    }
+
+    .partners {
+        padding: 60px 39px;
+    }
+
+    .partners img {
+        width: 150px;
+        height: 80px;
+    }
+
+    .sketch {
+        height: 334px;
+        padding: 0;
+        padding-left: 39px;
+        padding-top: 60px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .sketch__info {
+        width: 330px;
+    }
+
+    .sketch__info h2 {
+        font-size: 30px;
+    }
+
+    .sketch__img-container {
+        width: 0px;
+    }
+
+    .sketch__img-container img {
+        padding-top: 0;
+        width: 449px;
+        height: 341.122px;
+    }
+
+    .footer {
+        padding: 0 39px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .header__row {
+        padding: 0px 33px
+    }
+
+    .header__line2 {
+        margin-top: 18px;
+    }
+
+    .hero {
+        height: 416px;
+        padding: 0 32px;
+    }
+
+    .hero img {
+        height: 396px;
+    }
+
+    .hero__content-block {
+        width: 287px;
+        gap: 20px;
+    }
+
+    .hero__content-block h1 {
+        font-size: 38px;
+    }
+
+    .hero__content-block p {
+        font-size: 16px;
+    }
+
+    .results {
+        padding: 60px 33px;
+    }
+
+    .results__variant {
+        width: 150px;
+    }
+
+    .results__info {
+        flex-wrap: wrap;
+    }
+
+    .results__info-text {
+        width: 100%;
+        max-width: none;
+    }
+
+    .results__info-text h2 {
+        font-size: 24px;
+    }
+
+    .results__info-text p {
+        font-size: 16px;
+    }
+
+    .results__variant-number {
+        font-size: 16px;
+    }
+
+    .results__variant-text {
+        font-size: 16px;
+        width: 130px;
+    }
+
+    .results__variant-content img {
+        width: 150px;
+        height: 111px;
+    }
+
+    .products {
+        padding: 60px 29px;
+    }
+
+    .products__product {
+        width: 240px;
+        height: 434px;
+    }
+
+    .products__product h3 {
+        font-size: 24px;
+    }
+
+    .products__count {
+        padding: 4px 0 8px;
+    }
+
+    .products__info {
+        font-size: 16px;
+    }
+
+    .partners {
+        padding: 60px 33px;
+    }
+
+    .partners img {
+        width: 240px;
+        height: 127px;
+    }
+
+    .sketch {
+        height: 567px;
+        padding: 60px 33px;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sketch__info {
+        width: 100%;
+    }
+
+    .sketch__info h2 {
+        font-size: 24px;
+    }
+
+    .sketch__text {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .sketch__img-container {
+        width: auto;
+        height: auto;
+    }
+
+    .sketch__img-container img {
+        width: 449px;
+        height: 341.122px;
+    }
+
+    .footer {
+        padding: 0 33px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .nav-in-header {
+        display: none;
+    }
+
+    .icons-in-content {
+        display: none;
+    }
+
+    .header__mobile-nav {
+        display: flex;
+    }
+
+    .header__content {
+        justify-content: center;
+    }
+
+    .header__line {
+        margin-top: 10.5px;
+        margin-bottom: 15px;
+    }
+
+    .header__line2 {
+        margin-top: 14px;
+    }
+
+    .hero {
+        height: 320px;
+        padding: 49px 16px;
+        display: block;
+        height: auto;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero__content-block {
+        /* width: 289px; */
+        width: 100%;
+        height: auto;
+    }
+
+    .hero__content-block h1 {
+        font-size: 30px;
+    }
+
+    .hero__content-block p {
+        font-size: 14px;
+    }
+
+    .results {
+        padding: 60px 15px;
+    }
+
+    .results__variant-content {
+        flex-direction: row;
+    }
+
+    .results__variant {
+        width: 100%;
+    }
+
+    .results__variant-content img {
+        width: 130px;
+        height: 96px;
+    }
+
+    .products {
+        padding: 60px 15px;
+    }
+
+    .products__product {
+        width: 290px;
+        height: 417px;
+    }
+
+    .products__content {
+        row-gap: 60px;
+    }
+
+    .partners {
+        padding: 60px 15px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-y: scroll;
+        gap: 30px;
+    }
+
+    .partners img {
+        width: 150px;
+        height: 80px;
+    }
+
+
+    .sketch {
+        height: auto;
+        padding: 60px 15px;
+        gap: 0;
+    }
+
+    .sketch__img-container {
+        width: auto;
+        height: auto;
+    }
+
+    .sketch__img-container img {
+        width: 290px;
+        height: 220.433px;
+    }
+
+    .footer {
+        height: 87px;
+        padding: 20px 15px;
+        flex-direction: column;
+    }
+
+    .footer__line {
+        display: block;
+    }
+}
