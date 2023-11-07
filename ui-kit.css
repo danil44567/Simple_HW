@@ -29,6 +29,7 @@
 }
 
 .button:active {
+    color: #FFF;
     background: #4946B4;
 }
 
